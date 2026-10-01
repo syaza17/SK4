@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Crave Cafe</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <!-- icon bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+
+    <style>
+      .hero {
+        margin-top: 72px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav
+      class="navbar navbar-expand-lg bg-danger-subtle py-3 fixed-top"
+      data-bs-theme="light"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          >Crave Cafe <i class="bi bi-suit-heart"></i
+        ></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#order">Reservasi</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Section Hero  -->
+    <section class="hero bg-secondary-subtle">
+      <div class="container">
+        <div class="row g-3 py-5 align-items-center">
+          <div class="col-md">
+            <h1 class="text-danger-emphasis">
+              Menyeduh Cerita di Setiap Cangkir
+            </h1>
+            <p class="fs-5">
+              Dari biji kopi lokal terbaik hingga seduhan presisi di tangan
+              barista kami, setiap cangkir menghadirkan rasa autentik yang siap
+              menemani momen fokusmu, diskusi hangat, atau sekadar menikmati
+              jeda di tengah hari.
+            </p>
+            <div>
+              <a href="#about" type="button" class="btn btn-danger"
+                >Pesan Meja</a
+              >
+              <a href="#menu" type="button" class="btn btn-outline-danger"
+                >Menu</a
+              >
+            </div>
+          </div>
+          <div class="col-md text-center">
+            <img src="img/cafe3.jpg" alt="" width="98%" class="rounded-5" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section About -->
+    <section id="about" class="about">
+      <div class="container py-5">
+        <div class="text-center">
+          <h4 class="fw-bold text-muted fs-5">ABOUT US</h4>
+          <h2 class="fw-bold text-danger-emphasis">
+            Lebih dari Sekadar Kopi, Ini Tentang Momen.
+          </h2>
+        </div>
+        <!-- Agar paragraf ada di tengah -->
+        <div class="row justify-content-center">
+          <div class="col-8 text-center fs-6">
+            <p>
+              Berawal dari kecintaan kami pada kekayaan kopi Nusantara, kami
+              hadir untuk menghadirkan pengalaman menikmati kopi yang berbeda.
+              Kami percaya bahwa setiap cangkir kopi yang baik dimulai dari
+              dedikasi—mulai dari pemilihan biji kopi lokal berkualitas tinggi
+              dari para petani terbaik, hingga teknik penyeduhan presisi oleh
+              barista kami.
+            </p>
+            <p>
+              Namun bagi kami, kopi hanyalah awal. Kami merancang ruang ini
+              sebagai wadah bagi kamu yang membutuhkan tempat untuk fokus
+              bekerja, menemukan ide-ide baru, atau sekadar menikmati rehat
+              sejenak di tengah padatnya hari. Di sini, setiap sudut diciptakan
+              untuk kenyamananmu, dan setiap cangkir diseduh untuk menemani
+              ceritamu.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Menu -->
+    <section id="menu" class="Menu py-5 bg-secondary-subtle">
+      <div class="container py-4">
+        <div class="text-center">
+          <h4 class="fw-bold text-muted fs-5">
+            PILIHAN REKOMENDASI <i class="bi bi-basket2-fill"></i>
+          </h4>
+          <h2 class="fw-bold text-danger-emphasis">Menu Favorit Crave Cafe</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 py-3">
+            <div class="card h-100">
+              <img src="img/crave1.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <div
+                  class="d-flex justify-content-between fw-bold text-danger-emphasis"
+                >
+                  <h4>Taro Latte</h4>
+                  <span>Rp 26.000</span>
+                </div>
+                <p class="card-text">
+                  Combination of purple sweet potato and creamy milk.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3">
+            <div class="card h-100">
+              <img src="img/crave2.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <div
+                  class="d-flex justify-content-between fw-bold text-danger-emphasis"
+                >
+                  <h4>Honey Lemonade</h4>
+                  <span>Rp 24.000</span>
+                </div>
+                <p class="card-text">
+                  A refreshing combination of premium longan honey, lemon juice,
+                  and soda.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3">
+            <div class="card h-100">
+              <img src="img/crave3.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <div
+                  class="d-flex justify-content-between fw-bold text-danger-emphasis"
+                >
+                  <h4>Matcha Latte</h4>
+                  <span>Rp 32.000</span>
+                </div>
+                <p class="card-text">
+                  Creamy and leafy, the best twist of Japanese classic drink.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3">
+            <div class="card h-100">
+              <img src="img/crave4.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <div
+                  class="d-flex justify-content-between fw-bold text-danger-emphasis"
+                >
+                  <h4>Red Velvet Latte</h4>
+                  <span>Rp 25.000</span>
+                </div>
+                <p class="card-text">
+                  Our favorite red velvet drink with cream cheese notes.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3">
+            <div class="card h-100">
+              <img src="img/crave5.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <div
+                  class="d-flex justify-content-between fw-bold text-danger-emphasis"
+                >
+                  <h4>Black Cookie Latte</h4>
+                  <span>Rp 26.000</span>
+                </div>
+                <p class="card-text">
+                  A classic drink with chocolate cookies and vanilla cream.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3">
+            <div class="card h-100">
+              <img src="img/crave6.jpeg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <div
+                  class="d-flex justify-content-between fw-bold text-danger-emphasis"
+                >
+                  <h4>White</h4>
+                  <span>Rp 18.000</span>
+                </div>
+                <p class="card-text">A classic caffe latte.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Reservasi -->
+    <section id="order" class="reservasi py-5">
+      <div class="container">
+        <!-- Judul & Deskripsi Tetap di Tengah -->
+        <div class="text-center mb-4">
+          <h4 class="fw-bold text-muted fs-5">
+            RESERVASI MEJA <i class="bi bi-chat-heart"></i>
+          </h4>
+          <h2 class="fw-bold text-danger-emphasis">
+            Amankan Tempat Favorit Anda!
+          </h2>
+          <p>Isi form berikut untuk melakukan pemesanan tempat.</p>
+        </div>
+
+        <!-- Grid Bootstrap untuk Meletakkan Form di Tengah Halaman -->
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8 col-lg-6">
+            <!-- Form dan Label Rata Kiri (text-start) -->
+            <form class="text-start">
+              <div class="mb-3">
+                <label for="namaLengkap" class="form-label fw-medium"
+                  >Nama Lengkap</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="namaLengkap"
+                  placeholder="Masukkan Nama Anda"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="nomorWhatsapp" class="form-label fw-medium"
+                  >Nomor Whatsapp</label
+                >
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="nomorWhatsapp"
+                  placeholder="0821xxxxxxxx"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="tanggalWaktu" class="form-label fw-medium"
+                  >Tanggal & Waktu</label
+                >
+                <input
+                  type="datetime-local"
+                  class="form-control"
+                  id="tanggalWaktu"
+                  required
+                />
+              </div>
+
+              <div class="mb-4">
+                <label for="jumlahOrang" class="form-label fw-medium"
+                  >Jumlah Orang</label
+                >
+                <select
+                  class="form-select"
+                  id="jumlahOrang"
+                  aria-label="Jumlah Orang"
+                  required
+                >
+                  <option value="" selected disabled>Pilih Jumlah Orang</option>
+                  <option value="1">1 Orang</option>
+                  <option value="2">2 Orang</option>
+                  <option value="3">3 Orang</option>
+                  <option value="4">4 Orang</option>
+                  <option value="5">5 Orang</option>
+                  <option value="6">6+ Orang</option>
+                </select>
+              </div>
+
+              <!-- Tombol Pesan Meja -->
+              <div class="d-grid">
+                <button type="submit" class="btn btn-danger btn-lg fw-bold">
+                  <i class="bi bi-calendar-check me-2"></i>Pesan Meja
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Peta/Map -->
+    <section class="lokasi py-5 bg-secondary-subtle">
+      <div class="container py-4 align-items-center">
+        <div class="row bg-danger-subtle">
+          <!-- Container Utama (Sebelah Kiri) -->
+          <div class="col-md-7 p-4">
+            <!-- Logo / Judul Cafe -->
+            <h2
+              class="fw-bold mb-2 d-flex align-items-center text-danger-emphasis"
+            >
+              Crave Cafe
+            </h2>
+
+            <!-- Tagline / Deskripsi Singkat -->
+            <p
+              class="text-muted mb-4 fs-6"
+              style="max-width: 420px; line-height: 1.5"
+            >
+              Bukan Sekadar Kopi, Ini Cerita.
+            </p>
+
+            <!-- Section 2 Kolom (Jam Operasional & Lokasi/Kontak) -->
+            <div class="row g-3">
+              <!-- Kolom Jam Operasional -->
+              <div class="col-sm-6">
+                <h5
+                  class="fw-bold fs-6 mb-2 d-flex align-items-center text-danger-emphasis"
+                >
+                  <i class="bi bi-clock me-2"></i> Jam Operasional
+                </h5>
+                <div class="mb-2">
+                  <small class="text-muted d-block">Senin - Jumat:</small>
+                  <span class="fw-bold" style="color: #2c221e"
+                    >08.00 - 23.00 WIB</span
+                  >
+                </div>
+                <div>
+                  <small class="text-muted d-block">Sabtu - Minggu:</small>
+                  <span class="fw-bold" style="color: #2c221e"
+                    >08.00 - 00.00 WIB</span
+                  >
+                </div>
+              </div>
+
+              <!-- Kolom Lokasi & Kontak -->
+              <div class="col-sm-6">
+                <h5
+                  class="fw-bold fs-6 mb-2 d-flex align-items-center text-danger-emphasis"
+                >
+                  <i class="bi bi-geo-alt me-2"></i> Lokasi & Kontak
+                </h5>
+                <p class="small text-muted mb-2">
+                  Jl. Kusumanegara No.3, Semaki, Kec. Umbulharjo, Kota
+                  Yogyakarta
+                </p>
+                <p
+                  class="small fw-semibold mb-0 d-flex align-items-center"
+                  style="color: #2c221e"
+                >
+                  <i class="bi bi-telephone me-2 text-muted"></i> +62
+                  231-6969-1970
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <iframe
+              class="py-2 rounded-5"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d988.2224653200933!2d110.38163878193146!3d-7.801483728242786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a579ceebe1279%3A0x7808ad25aa525803!2sSMTI%20Yogyakarta%20Vocational%20High%20School!5e0!3m2!1sen!2sid!4v1790816814701!5m2!1sen!2sid"
+              height="300"
+              style="width: 100%"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="strict-origin-when-cross-origin"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="text-center text-black p-3 bg-danger-subtle fw-bold">
+        &copy; 2026 Crave Cafe. All Rights Reserved
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
